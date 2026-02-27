@@ -187,6 +187,60 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Section – Devenir membre */}
+      <section className="bg-zinc-50/80">
+        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 sm:py-16">
+          <div className="grid gap-8 sm:grid-cols-[minmax(0,1.5fr)_minmax(0,2fr)] sm:items-start">
+            <div className="fade-up-soft">
+              <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-zinc-100 bg-white shadow-md sm:aspect-square">
+                <Image
+                  src="/devenir-membre.png"
+                  alt="Rejoignez l'équipe Sourire Pour Tous"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 640px) 100vw, 40vw"
+                />
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 to-transparent px-4 py-4 text-white sm:px-5 sm:py-5">
+                  <p className="text-xs font-medium sm:text-sm">
+                    « Ensemble, nous pouvons toucher encore plus de familles,
+                    d&apos;enfants et de structures en difficulté. »
+                  </p>
+                  <p className="mt-1.5 text-[11px] text-white/90 sm:text-xs">
+                    Devenir membre, c&apos;est s&apos;engager dans une dynamique
+                    de solidarité continue, proche du terrain.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="fade-up-soft flex flex-col justify-center sm:delay-100 sm:-mt-8 sm:pt-4">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-red-400">
+                Rejoindre l&apos;équipe
+              </p>
+              <h2 className="mt-2 text-xl font-semibold text-zinc-900 sm:text-2xl">
+                Devenir membre de Sourire Pour Tous
+              </h2>
+              <p className="mt-3 text-sm text-zinc-600 sm:text-base">
+                Vous souhaitez donner un peu de votre temps, de vos compétences
+                ou devenir donateur régulier&nbsp;? Rejoignez l&apos;association
+                et participez aux distributions, visites d&apos;orphelinats et
+                projets solidaires.
+              </p>
+              <ul className="mt-4 space-y-1.5 text-xs text-zinc-600 sm:text-sm">
+                <li>• Bénévolat sur le terrain (distributions, visites).</li>
+                <li>• Donateurs réguliers pour sécuriser les actions.</li>
+                <li>• Partenaires solidaires (entreprises, associations).</li>
+              </ul>
+              <Link
+                href="/devenir-membre"
+                className="mt-6 inline-flex rounded-full bg-red-600 px-6 py-2.5 text-sm font-semibold text-white shadow-md shadow-red-500/40 hover:bg-red-700"
+              >
+                Remplir le formulaire
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
