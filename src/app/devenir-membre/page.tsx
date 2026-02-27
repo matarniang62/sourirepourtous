@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 type TypeEngagement = "benevole" | "donateur" | "partenaire" | "autre";
 
@@ -56,6 +57,16 @@ export default function DevenirMembrePage() {
   return (
     <div className="bg-white">
       <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20">
+        <div className="relative mx-auto mb-10 aspect-[4/3] max-w-md overflow-hidden rounded-2xl bg-orange-50 shadow-md">
+          <Image
+            src="/devenir-membre-team-work.png"
+            alt="Mains unies en équipe – Rejoignez Sourire Pour Tous"
+            fill
+            className="object-contain p-4"
+            sizes="(max-width: 768px) 100vw, 28rem"
+            priority
+          />
+        </div>
         <div className="text-center">
           <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-red-400">
             Devenir membre
