@@ -102,7 +102,7 @@ export default function RootLayout({
         </div>
         {/* Bouton WhatsApp flottant type chatbot */}
         <a
-          href="https://wa.me/221766396416"
+          href="https://wa.me/221778769354"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Contacter Sourire Pour Tous sur WhatsApp"
