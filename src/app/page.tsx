@@ -194,10 +194,10 @@ export default function Home() {
             <div className="fade-up-soft">
               <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-zinc-100 bg-white shadow-md sm:aspect-square">
                 <Image
-                  src="/devenir-membre.png"
+                  src="/devenir-membre-team-work.png"
                   alt="Rejoignez l'équipe Sourire Pour Tous"
                   fill
-                  className="object-cover object-top"
+                  className="image-devenir-membre object-cover object-center"
                   sizes="(max-width: 640px) 100vw, 40vw"
                 />
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 to-transparent px-4 py-4 text-white sm:px-5 sm:py-5">
